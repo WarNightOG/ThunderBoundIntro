@@ -178,7 +178,7 @@ const organizersData = [
         name: '',
         role: 'GamingWebsiteResearcher',
         image: 'XxSilentProxX',
-        email: 'iamsilent999@gmail.com',
+        email: 'iamsilentofficial999@gmail.com',
         phone: '+92 03356566933'
     }
 ];
