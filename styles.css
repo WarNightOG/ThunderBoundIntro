@@ -293,6 +293,15 @@ h1, h2, h3, h4, h5, h6 {
     gap: 2rem;
     margin-top: 3rem;
 }
+.organizer-image img {
+    width: 100px; /* Adjust width as needed */
+    height: 100px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the box */
+    border-radius: 50%; /* Makes the image circular, remove if not needed */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+
 
 /* Supporters Gallery */
 .supporters-section {
