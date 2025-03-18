@@ -171,16 +171,11 @@ const organizersData = [
         name: 'MaryamRabeeb/XxSilentProxX',
         role: 'GamingWebsiteResearcher',
         image: 'XxSilentProxX',
-        email: 'iamsilent999@gmail.com',
-        phone: '+92 03356566933'
-    }
-        {
-        name: '',
-        role: 'GamingWebsiteResearcher',
-        image: 'XxSilentProxX',
         email: 'iamsilentofficial999@gmail.com',
         phone: '+92 03356566933'
     }
+    
+    
 ];
 
 const organizersGrid = document.querySelector('.organizers-grid');
