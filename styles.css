@@ -293,47 +293,46 @@ h1, h2, h3, h4, h5, h6 {
     gap: 2rem;
     margin-top: 3rem;
 }
-.organizer-grid {
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-    object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the box */
-    border-radius: 50%; /* Makes the image circular, remove if not needed */
-    display: block;
-    margin: 0 auto; /* Centers the image */
-}
 
-
-/* Supporters Gallery */
-.supporters-section {
-    padding: 100px 0;
-}
-
-.gallery-filters {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 2rem;
-}
-
-.filter-btn {
-    padding: 0.5rem 1.5rem;
-    background: transparent;
-    border: 1px solid var(--primary-color);
-    color: var(--primary-color);
-    cursor: pointer;
+.organizer-card {
+    background: var(--card-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
     transition: var(--transition-speed);
 }
 
-.filter-btn.active,
-.filter-btn:hover {
-    background: var(--primary-color);
-    color: var(--background-color);
+.organizer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
 }
 
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 2rem;
+.organizer-info h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.organizer-info .role {
+    color: var(--accent-color);
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.organizer-info a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: var(--transition-speed);
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.organizer-info a:hover {
+    color: var(--primary-color);
+}
+
+.organizer-info p {
+    color: var(--text-color);
+    opacity: 0.8;
 }
 
 /* CTA Section */
@@ -455,6 +454,17 @@ h1, h2, h3, h4, h5, h6 {
 
     .tagline {
         font-size: 1.2rem;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(3, 100px);
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        width: 70px;
+        height: 70px;
     }
 }
 
