@@ -3,70 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ThunderBound - Your Ultimate Digital Universe</title>
+    <title>ThunderBound - Digital Universe</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 <body>
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Matrix Background -->
+    <div class="matrix-bg"></div>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
-            <div class="logo">
-                <img src="assets/images/logo.png" alt="ThunderBound Logo">
-            </div>
+            <a href="#" class="logo">
+                <span class="lightning glitch-hover">⚡</span>
+                <span class="neon-text">ThunderBound</span>
+            </a>
             <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#features">Features</a>
-                <a href="#organizers">Organizers</a>
-                <a href="#supporters">Supporters</a>
-                <a href="#contact" class="cta-button">Get Started</a>
-            </div>
-            <div class="mobile-menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
+                <a href="https://ThunderBound.blogspot.com" class="glitch-hover">About</a>
+                <a href="#features" class="glitch-hover">Features</a>
+                <a href="https://warnightog.github.io/ThunderBound" class="glitch-hover">GamingHub</a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="hero" class="hero-section">
-        <div id="particles-js"></div>
+    <section class="hero-section">
+        <div class="cyber-lines"></div>
         <div class="hero-content">
-            <h1 class="glow-text">ThunderBound</h1>
-            <p class="tagline">Your Gateway to 50+ Premium Digital Experiences!</p>
-            <a href="#get-started" class="cta-button">Explore Our Universe</a>
+            <h1 class="glow-text float-element">Welcome to ThunderBound</h1>
+            <p class="tagline neon-text">Your Gateway to 50+ Premium Digital Services</p>
+            <div class="magnetic-wrap">
+                <div class="magnetic-area">
+                    <a href="#explore" class="cta-button pulse">Explore Our Universe</a>
+                </div>
+            </div>
+            <div class="hero-features">
+                <div class="feature-tag">Gaming</div>
+                <div class="feature-tag">Editing</div>
+                <div class="feature-tag">Free Shows</div>
+            </div>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="about-section">
+    <section class="about-section">
         <div class="container">
-            <h2>Welcome to ThunderBound</h2>
+            <h2 class="neon-text">About ThunderBound</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>ThunderBound is your ultimate digital universe, controlling and managing over 50 premium websites and platforms. From gaming to editing, from community hubs to creative spaces, we're your one-stop destination for everything digital.</p>
-                    <p>Our vast Minecraft Public Server Going to beat Hypixel and will be the world's best minecraft from Lifesteal,elements to All MiniGames including of 1.8.9-1.21 Games!</p>
+                    <p class="glitch-hover">We're a dynamic team of creators, developers, and enthusiasts powering a diverse digital universe. From gaming communities to creative platforms, we bring your digital dreams to life.</p>
+                    <div class="team-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-globe"></i>
+                            <h3>Digital Universe</h3>
+                            <p>Managing 50+ premium websites across multiple categories</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <h3>Community Driven</h3>
+                            <p>Building and nurturing diverse online communities</p>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <h3>Innovation First</h3>
+                            <p>Constantly expanding our digital ecosystem</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="about-stats">
-                    <div class="stat-item">
-                        <i class="fas fa-globe"></i>
-                        <span class="stat-number">50+</span>
-                        <span class="stat-label">Premium Websites</span>
+                    <div class="stat-item parallax-card">
+                        <div class="parallax-card-content">
+                            <i class="fas fa-globe"></i>
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Premium Websites</span>
+                        </div>
                     </div>
-                    <div class="stat-item">
-                        <i class="fas fa-users"></i>
-                        <span class="stat-number">Growing</span>
-                        <span class="stat-label">Team Building</span>
-                    </div>
-                    <div class="stat-item">
-                        <i class="fas fa-server"></i>
-                        <span class="stat-number">Achieving</span>
-                        <span class="stat-label">BestMinecraftServer</span>
+                    <div class="stat-item parallax-card">
+                        <div class="parallax-card-content">
+                            <i class="fas fa-users"></i>
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Team Members</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,9 +117,9 @@
                     <p>Professional editing tools and creative platforms.</p>
                 </div>
                 <div class="feature-card">
-                    <i class="fas fa-users"></i>
-                    <h3>Community Hubs</h3>
-                    <p>Diverse community platforms for every interest.</p>
+                    <i class="fas fa-film"></i>
+                    <h3>Free Shows</h3>
+                    <p>Entertainment platforms with free streaming content.</p>
                 </div>
                 <div class="feature-card">
                     <i class="fas fa-store"></i>
@@ -112,31 +140,39 @@
         </div>
     </section>
 
-    <!-- Organizers Section -->
-    <section id="organizers" class="organizers-section">
+    <!-- Websites Grid -->
+    <section class="websites-section">
         <div class="container">
-            <h2>Meet Our Team</h2>
-            <div class="organizers-grid">
-                <!-- Organizer cards will be dynamically loaded -->
+            <h2 class="neon-text">Our Digital Universe</h2>
+            <div class="websites-grid">
+                <!-- Website cards will be dynamically added here -->
             </div>
         </div>
     </section>
 
-    <!-- Supporters Gallery -->
-    
-
-    <!-- Call to Action -->
-    <section id="cta" class="cta-section">
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cyber-grid"></div>
         <div class="container">
-            <h2>Join Our Digital Universe</h2>
-            <p>Access 50+ premium platforms with a single account</p>
-            <a href="#register" class="cta-button">Get Started</a>
-            <div class="social-links">
-                <a href="#" class="social-icon"><i class="fab fa-discord"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <h2 class="cyber-glitch neon-text">Ready to Explore Our Digital Universe?</h2>
+            <p class="cyber-text">Connect with us and discover our world of premium digital services</p>
+            <div class="cta-buttons">
+                <div class="magnetic-wrap">
+                    <div class="magnetic-area">
+                        <a href="https://discord.gg/cHbSyYNQX9t" class="cta-button pulse" target="_blank">Get Started</a>
+                    </div>
+                </div>
+                <div class="magnetic-wrap">
+                    <div class="magnetic-area">
+                        <a href="https://discord.gg/cHbSyYNQX9" class="cta-button-alt glow" target="_blank">Explore More</a>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div class="cyber-orbs">
+            <div class="orb float-element"></div>
+            <div class="orb float-element"></div>
+            <div class="orb float-element"></div>
         </div>
     </section>
 
@@ -145,21 +181,19 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <img src="assets/images/logo.png" alt="ThunderBound Logo">
+                    <span class="neon-text">ThunderBound</span>
                 </div>
                 <div class="footer-links">
                     <div class="footer-column">
-                        <h3>Quick Links</h3>
-                        <a href="#about">About</a>
+                        <h3 class="glitch-hover">Quick Links</h3>
+                        <a href="#about">About Us</a>
                         <a href="#features">Features</a>
-                        <a href="#organizers">Organizers</a>
-                        <a href="#supporters">Our Network</a>
+                        <a href="#websites">Websites</a>
                     </div>
                     <div class="footer-column">
-                        <h3>Legal</h3>
-                        <a href="#">Terms & Conditions</a>
-                        <a href="#">Privacy Policy</a>
-                        <a href="#">Contact Us</a>
+                        <h3 class="glitch-hover">Connect</h3>
+                        <a href="#contact">Contact</a>
+                        <a href="#support">Support</a>
                     </div>
                 </div>
             </div>
