@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5, h6 {
     gap: 2rem;
     margin-top: 3rem;
 }
-.organizer-image img {
+.organizer-grid {
     width: 100px; /* Adjust width as needed */
     height: 100px; /* Adjust height as needed */
     object-fit: cover; /* Ensures the image maintains its aspect ratio and fills the box */
