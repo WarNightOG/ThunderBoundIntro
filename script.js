@@ -156,23 +156,30 @@ const organizersData = [
     {
         name: 'HassanJaved/WarNightOG',
         role: 'Founder/Creator/Developer',
-        image: '',
+        image: 'WarNightOG.png',
         email: 'hassanjavedelt@gmail.com',
         phone: '92+ 03344148636'
     },
     {
-        name: 'Jane Smith',
-        role: 'Technical Lead',
-        image: 'assets/images/organizers/jane.jpg',
-        email: 'jane@thunderbound.com',
-        phone: '+1 234 567 8901'
+        name: 'UsmanFahd/ProGamer2123',
+        role: 'PublicServer-Founder/Admin',
+        image: 'ProGamer2123',
+        email: 'usmanfahad2013microsoft@gmail.com',
+        phone: '+92 03344148636'
     },
     {
-        name: 'Mike Johnson',
-        role: 'Community Manager',
-        image: 'assets/images/organizers/mike.jpg',
-        email: 'mike@thunderbound.com',
-        phone: '+1 234 567 8902'
+        name: 'MaryamRabeeb/XxSilentProxX',
+        role: 'GamingWebsiteResearcher',
+        image: 'XxSilentProxX',
+        email: 'iamsilent999@gmail.com',
+        phone: '+92 03356566933'
+    }
+        {
+        name: '',
+        role: 'GamingWebsiteResearcher',
+        image: 'XxSilentProxX',
+        email: 'iamsilent999@gmail.com',
+        phone: '+92 03356566933'
     }
 ];
 
